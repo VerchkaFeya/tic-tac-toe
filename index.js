@@ -113,7 +113,7 @@ function playResultAudio() {
 }
 
 function playResetAudio() {
-  resetAudio.src = './assets/audio/zapsplat_multimedia_button_click_004_68776.mp3';
+  resetAudio.src = './assets/audio/reset_sound.mp3';
   resetAudio.currentTime = 0;
   resetAudio.play();
 }
